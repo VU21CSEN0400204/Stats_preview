@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    height: 500px;
+    margin: 100px 50px;
+    display: flex;
+    background-color:hsl(244, 38%, 16%);
+}
+
+.image{
+    width: 50%;
+    text-align: left;
+    
+}
+
+.h1{
+  margin-bottom: 100px;
+}
+
+.p{
+    margin-top: 70px;
+
+}
+
+.fotter{
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.section{
+    letter-spacing: 0.5px;
+  
+}
+

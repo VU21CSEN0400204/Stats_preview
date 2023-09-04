@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;  400, 700
+font-family: 'Lexend Deca', sans-serif; 400
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.card{
+    display: flex;
+    margin: 100px auto;
+    background-color: hsl(244, 38%, 16%);
+    width: 70%;
+    border-radius: 10px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.text{
+    padding: 50px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.purple{
+    color: hsl(277, 64%, 61%);
+}
+
+.text > p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+}
+
+.footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section p{
+    font-size: 9px;
+    margin: 5px 0px;
+    color:  hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 0.5px;
+}
+
+.section h1{
+    font-size: 15px;
+    margin: 0px 0px;
+}
+
+.img{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.main-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
